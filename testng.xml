@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Selenium Test Suite"  parallel="false">
+    <listeners>
+       <listener class-name="Util.ExtentTestListener"/>-->
+    </listeners>
+
+    <test name="Login Tests">
+        <classes>
+            <class name="Login.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Shop Tests">
+        <classes>
+            <class name="Shop.ShopTest"/>
+        </classes>
+    </test>
+</suite>
