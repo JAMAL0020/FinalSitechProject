@@ -4,22 +4,17 @@ import Base.BaseTest;
 import Pages.LoginPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-import java.time.Duration;
+
 import java.util.List;
 
 import static Util.ConfigReader.getPassword;
 import static Util.ConfigReader.getUsername;
 
    public class ShopTest extends BaseTest {
-
-    //private WebDriver driver;
-    //use shoppingCartLogo
-    //return as By 3shan astkhdmo b mkan thany
 
     @Test
     public void addHighestPriceItem () throws IOException {

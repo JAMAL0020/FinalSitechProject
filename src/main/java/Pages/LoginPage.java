@@ -23,15 +23,6 @@ public class LoginPage extends BasePage {
         }
 
 
-
-//        public boolean isShoppingCartLogoVisable (){
-//            return driver.findElement(shoppingCartLogoLocator).isDisplayed();
-//
-//            // where can can i use this isShoppingCartLogoVisable in logintest or shoptest
-//
-//        }
-
-
 }
 
 
